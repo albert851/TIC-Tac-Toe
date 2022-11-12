@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  border: 5px solid rgb(44, 26, 8);
+}
+
+.bg {
+  -webkit-animation: slide 3s ease-in-out infinite alternate;
+          animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(20deg, rgb(126, 90, 5) 50%, rgb(110, 66, 22) 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.bg3 {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+header {
+  padding: o, 10px;
+  color: whitesmoke;
+  background-color: rgb(110, 66, 22);
+}
+
+.desc {
+  height: 1200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.desc .in {
+  background-color: rgb(110, 66, 22);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.desc .in form {
+  margin: 2x;
+  margin-top: 20px;
+  font-family: Ink Free;
+  color: whitesmoke;
+}
+.desc .in form h4 {
+  margin: 2px;
+  margin-bottom: 10px;
+}
+.desc .in form input {
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.desc .in form textarea {
+  margin: 5px;
+  width: 90%;
+  height: 100%;
+}
+.desc .in form .btn {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 80%;
+}
+.desc .container {
+  width: 1200px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.desc .container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+  color: whitesmoke;
+  font-family: Ink Free;
+}
+.desc .container h3 {
+  margin-left: 10px;
+  color: whitesmoke;
+  font-family: Ink Free;
+}
+.desc .container .box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 30%;
+}
+.desc .container .box .b {
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 3%;
+  border: 5px inset rgb(110, 66, 22);
+  background-color: rgb(208, 170, 132);
+  width: 100px;
+  height: 100px;
+}
+.desc .container .box .b h1 {
+  width: auto;
+  height: auto;
+  color: red;
+  font-family: papyrus;
+  font-weight: bold;
+}
+.desc .container .box span {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(126, 90, 5);
+  transition: all 1s;
+}
+.desc .container .box :hover span {
+  opacity: 0.4;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}/*# sourceMappingURL=index.css.map */

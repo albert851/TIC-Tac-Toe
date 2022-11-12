@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>Exercise-1</title>
+        <link rel="stylesheet" href="./index.css" />
+
+    </head>
+
+    <body>
+       <header>
+        <h2>TIC Tac Toe</h2>
+       </header>
+       <div class="desc">
+        <div class="in">
+            <form id="game">
+                <h3>To start the game click play</h3>
+                <div>
+                    <label for="player1">Player X: <span id="s1"></span></label><br>
+                    <input id="player1" type="text" />
+                </div>
+                <div>
+                    <label for="player2">Player O: <span id="s2"></span></label><br>
+                    <input id="player2" type="text" />
+                </div>
+
+                <button class="btn">Play</button>
+                <button class="btn">Reset</button>
+            </form>
+        </div>
+        <div class="container">
+
+            <h2 id="turn"></h2>
+
+            <div class="box"> 
+                <button class="b" id="0">
+                    <span></span>
+                    <h1></h1>
+                </button>
+                <button class="b" id="1">
+                    <span></span>
+                    <h1></h1>
+                </button>
+                <button class="b" id="2">
+                    <span></span>
+                    <h1></h1>
+                </button>
+            </div>
+
+            <div class="box">
+                <button class="b" id="3">
+                    <span></span>
+                    <h1></h1>
+                </button>
+                <button class="b" id="4">
+                    <span></span>
+                    <h1></h1>
+                </button>
+                <button class="b" id="5">
+                    <span></span>
+                    <h1></h1>
+                </button>  
+            </div>
+
+            <div class="box">
+                <button class="b" id="6">
+                    <span></span>
+                    <h1></h1>
+                </button>
+                <button class="b" id="7">
+                    <span></span>
+                    <h1></h1>
+                </button>
+                <button class="b" id="8">
+                    <span></span>
+                    <h1></h1>
+                </button>
+            </div>
+
+            <h3>Player X score: <span id="score">0</span></h3>
+            <h3>Player O score: <span id="score">0</span></h3>
+
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
